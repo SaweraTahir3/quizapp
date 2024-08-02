@@ -1,0 +1,148 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header .icon {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #fff;
+  border-right: 1px solid #e0e0e0;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar-responsive {
+  width: 250px;
+  transition: 0.3s;
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-list-item {
+  padding: 15px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.sidebar-list-item a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-list-item a .icon {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+.main-container {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.main-title {
+  margin-bottom: 20px;
+}
+
+.main-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card .card-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h1 {
+  margin: 0;
+}
+
+.card .card_icon {
+  font-size: 30px;
+  color: #007bff;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.charts > div {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.charts > div:last-child {
+  margin-right: 0;
+}
+
+.icon_header {
+  font-size: 24px;
+  color: #007bff;
+}
+
+.close_icon {
+  cursor: pointer;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+/* .dashboard{ */
+  /* margin: 50px; */
+/* } */
+.margin{
+  margin-top: -27%;
+}
+
